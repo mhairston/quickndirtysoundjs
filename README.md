@@ -20,6 +20,8 @@ Usage
 QuickAndDirtySound.play("http://example.com/assets/audio/cough.wav",6);
 ```
 
+Argument|Type|Description
+*===|*===|*===
 @url | (string) | Absolute path to soundfile
 @maxDur | (number - optional) | Time until sound-containing element is deleted. Should be slightly longer than the load time + sound duration. Default = 4 seconds.
 
