@@ -16,8 +16,9 @@ A quick & dirty sound player for JavaScript.
 Usage
 =====
 
-  QuickAndDirtySound.play("http://example.com/assets/audio/cough.wav",6);
-
+```
+QuickAndDirtySound.play("http://example.com/assets/audio/cough.wav",6);
+```
 
 @url | (string) | Absolute path to soundfile
 @maxDur | (number - optional) | Time until sound-containing element is deleted. Should be slightly longer than the load time + sound duration. Default = 4 seconds.
