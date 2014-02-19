@@ -1,9 +1,7 @@
 quickndirtysoundjs
 ==================
 
-A quick & dirty sound player for JavaScript
-
-@Author     Michael Hairston (mhairston@gmail.com)
+A quick & dirty sound player for JavaScript.
 
 * Triggers a sound in an HTML page.
 * Doesn't care about audio codec; A given user agent should work if it has HTML5 Audio support OR
@@ -15,12 +13,18 @@ A quick & dirty sound player for JavaScript
   to justify not using a more robust JS sound library :)
   
 
-@url      (string)        Absolute path to soundfile
-@maxDur   (number)        (optional) Time until sound-containing element is deleted. Should be slightly
-                          longer than the load time + sound duration. Default = 4 seconds.
+Usage
+=====
 
+  QuickAndDirtySound.play('http://example.com/assets/audio/cough.wav',6);
 
-###TODO: 
+@url | (string) | Absolute path to soundfile
+@maxDur | (number - optional) | Time until sound-containing element is deleted. Should be slightly longer than the load time + sound duration. Default = 4 seconds.
+
+  
+  
+TODO
+====
 
 * Test user agent compatibility. Works in Chrome 31/Mac. 
 * Find out what happens when extension/codec is not understood. 
