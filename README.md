@@ -6,7 +6,7 @@ A quick & dirty sound player for JavaScript.
 * Triggers a sound in an HTML page.
 * Doesn't care about audio codec; A given user agent should work if it has HTML5 Audio support OR
   a plugin that likes the given format (e.g., QuickTime, Windows Media, etc).
-* Does no pre-caching. Intended for short sounds with small file sizes.
+* Does no pre-caching. Intended for short sounds with small file sizes and non-strict timing requirements.
 * Leverages the ersatz-standard browser behavior that plays a sound file that is opened in its
   own tab/window.
 * Also leverages my assumption that this brain-dead approach might work in enough cases
